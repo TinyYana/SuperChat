@@ -1,0 +1,20 @@
+name: SuperChat
+version: ${project.version}
+main: io.github.tinyyana.superchat.SuperChatPlugin
+api-version: 1.16
+prefix: SuperChat
+authors: [ YanaTW ]
+description: A plugin can send Super Chat!!!
+website: https://github.com/TinyYana
+permissions:
+  SuperChatPlugin.Use:
+    description: access to use super chat command.
+    default: op
+  SuperChatPlugin.CoolDownBypass:
+    description: bypass cooldown.
+    default: op
+commands:
+  superchat:
+    description: send a super chat.
+    aliases: sc
+    usage: /<command> [content]

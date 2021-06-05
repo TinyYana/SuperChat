@@ -1,0 +1,7 @@
+NotEnoughDiamond: "&a你手上沒有足夠的鑽石所以不能發送超級留言"
+SuperChatSuccess: " &6發送了超級留言: "
+PermissionMessage: "&4你沒有權限使用此指令。"
+InCoolDown: "&c指令冷卻中, 剩餘秒數: "
+NotDiamond: "&c你手上拿的東西不是鑽石"
+CostAmount: 15
+CoolDownTime: 20
