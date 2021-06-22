@@ -38,9 +38,15 @@ public class SuperChatCommand implements CommandExecutor {
         String permissionMessage = plugin.getConfig().getString("PermissionMessage");
         String inCoolDown = plugin.getConfig().getString("InCoolDown");
         String notDiamond = plugin.getConfig().getString("NotDiamond");
+        String notPlayer = plugin.getConfig().getString("NotPlayer");
 
         if(!p.isOp() | !p.hasPermission("SuperChatPlugin.Use")) {
             p.sendMessage(ChatColor.translateAlternateColorCodes('&', permissionMessage));
+            return true;
+        }
+
+        if(!(sender instanceof  Player)) {
+            sender.sendMessage(ChatColor.translateAlternateColorCodes('&',notPlayer));
             return true;
         }
 

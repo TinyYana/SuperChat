@@ -3,5 +3,6 @@ SuperChatSuccess: " &6Sent a super chat: "
 PermissionMessage: "&4You do not have permission to do this."
 InCoolDown: "&cCommand cooling down, remaining seconds: "
 NotDiamond: "&cWhat you are holding is not a diamond."
+NotPlayer: "&cOnly player can use this command."
 CostAmount: 15
 CoolDownTime: 20
